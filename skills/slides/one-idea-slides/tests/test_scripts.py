@@ -183,6 +183,12 @@ class TestLayout(unittest.TestCase):
             self.assertIn(expected, texts)
         self.assertTrue(any("(s. d.)" in t for t in texts))
 
+    def test_label_sits_above_a_full_slide_film(self):
+        path = deck_file(self.root, [{"kind": "custom", "label": "How it works", "items": [
+            {"type": "video", "path": "film.mp4", "x": 0, "y": 0, "w": 1920, "h": 1080}]}])
+        laid, _, _, _ = bd.layout_deck(bd.load(path))
+        self.assertEqual(laid[0]["items"][-1]["text"], "How it works")
+
     def test_unknown_citation_is_an_error(self):
         path = deck_file(self.root, [{"kind": "statement", "text": "Hi.", "cite": ["nope"]}])
         self.assertTrue(any(p[0] == "error" and "nope" in p[2] for p in problems(path)))

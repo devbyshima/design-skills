@@ -1216,7 +1216,8 @@ def layout_deck(deck):
         for items in pages:
             c.n = len(laid) + 1
             if s.get("label"):
-                items.insert(0, text(s["label"], MARGIN, LABEL_Y, 1640, 40, c.th["muted"], role="label"))
+                # drawn last, so a full-slide film or picture doesn't cover it
+                items.append(text(s["label"], MARGIN, LABEL_Y, 1640, 40, c.th["muted"], role="label"))
             if s.get("caption"):
                 items.append(caption_item(s, c, kind, items))
             line = cite_line(s, refs, number, c.words)
