@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Skills for Designing with Agents">
+  <rect x="1" y="1" width="1278" height="638" rx="28" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="2"/>
+  <text x="88" y="188" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="30" fill="#57606A">devbyshima/design-skills</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="74" font-weight="600" letter-spacing="-1.5" fill="#24292F">
+    <text x="88" y="292">Skills for</text>
+    <text x="88" y="380">Designing with</text>
+    <text x="88" y="468">Agents</text>
+  </g>
+  <g>
+    <rect x="792" y="156" width="400" height="225" rx="14" fill="#EBEDF0"/>
+    <rect x="744" y="208" width="400" height="225" rx="14" fill="#DDE1E5"/>
+    <rect x="696" y="260" width="400" height="225" rx="14" fill="#FFFFFF" stroke="#C6CBD1" stroke-width="2"/>
+    <text x="896" y="386" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-2" fill="#E09D56">1</text>
+    <text x="896" y="426" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#4D5358">idea a slide.</text>
+    <text x="720" y="468" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="11" fill="#959DA5">Source: you, 2026</text>
+  </g>
+</svg>

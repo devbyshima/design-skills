@@ -1,0 +1,11 @@
+{
+  "name": "devbyshima-design-skills",
+  "description": "Design skills for agents by devbyshima",
+  "version": "0.1.0",
+  "author": { "name": "devbyshima", "url": "https://github.com/devbyshima" },
+  "homepage": "https://github.com/devbyshima/design-skills",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "skills": [
+    "./skills/slides/one-idea-slides"
+  ]
+}

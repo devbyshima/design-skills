@@ -1,0 +1,210 @@
+{
+  "_about": "A made-up pitch that uses every slide kind. The company, numbers and sources are placeholders: copy the shape, not the facts. Pictures that don't exist show as grey PHOTO boxes until you add them.",
+  "title": "Kibo pitch",
+  "minutes": 3,
+  "theme": {
+    "preset": "dark",
+    "font": "Inter"
+  },
+  "references": [
+    {
+      "key": "survey",
+      "cite": "Health Office, 2025",
+      "author": "Health Office",
+      "year": "2025",
+      "title": "Cold chain survey of rural clinics.",
+      "source": "Example Health Office",
+      "url": "https://example.org/cold-chain-survey"
+    },
+    {
+      "key": "trial",
+      "cite": "Kibo, 2026",
+      "author": "Kibo",
+      "year": "2026",
+      "title": "Field test of three boxes over ten days.",
+      "source": "",
+      "url": "https://example.org/kibo-field-test"
+    }
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "text": "Kibo",
+      "sub": "Vaccines that stay cold.",
+      "notes": "Ana · about 10 s\nGood afternoon. We're Kibo: Ana, Ben and Chi."
+    },
+    {
+      "kind": "statement",
+      "text": "A vaccine is only as good\nas its last cold mile.",
+      "notes": "Ana · about 12 s\nEvery vaccine has to stay between two and eight degrees, all the way to the child."
+    },
+    {
+      "kind": "number",
+      "number": "1 in 4",
+      "text": "doses spoil before they arrive.",
+      "cite": [
+        "survey"
+      ],
+      "notes": "Ana · about 15 s\nIn the clinics we surveyed, one dose in four spoils on the way.\n\nIf asked how it was measured: temperature loggers in 40 cool boxes over one month."
+    },
+    {
+      "kind": "numbers",
+      "numbers": [
+        {
+          "number": "6 h",
+          "text": "to the nearest fridge"
+        },
+        {
+          "number": "1",
+          "text": "cool box per clinic"
+        }
+      ],
+      "caption": "A district in the survey",
+      "cite": [
+        "survey"
+      ],
+      "notes": "Ana · about 12 s\nThe nearest fridge is six hours away, and each clinic has one cool box."
+    },
+    {
+      "kind": "split",
+      "text": "Today's cool boxes\nmelt by noon.",
+      "image": "photos/cool-box.jpg",
+      "alt": "an open cool box",
+      "notes": "Ben · about 10 s\nThe ice packs in today's boxes are water by midday.",
+      "credit": "Photo: your photographer, your licence"
+    },
+    {
+      "kind": "photo",
+      "image": "photos/kibo-in-clinic.jpg",
+      "alt": "Kibo on a clinic bench",
+      "text": "Kibo keeps them cold for five days.",
+      "transition": "fade-slow",
+      "notes": "Ben · about 8 s\nThis is Kibo. It keeps three hundred doses cold for five days, with no power."
+    },
+    {
+      "kind": "steps",
+      "label": "How it works",
+      "walk": true,
+      "steps": [
+        {
+          "head": "Charge it in the sun.",
+          "tail": "Four hours on the roof.",
+          "image": "screens/charge.png",
+          "alt": "the app: charging",
+          "notes": "Ben · about 8 s\nIt works in three steps. First, it charges in the sun,"
+        },
+        {
+          "head": "Load the doses.",
+          "tail": "Up to 300.",
+          "image": "screens/load.png",
+          "alt": "the app: loading",
+          "notes": "Ben · about 5 s\nthen the nurse loads the doses,"
+        },
+        {
+          "head": "Carry it out.",
+          "tail": "Cold for five days.",
+          "image": "screens/carry.png",
+          "alt": "the app: on the road",
+          "notes": "Ben · about 6 s\nand carries it out on foot or by bike."
+        }
+      ]
+    },
+    {
+      "kind": "columns",
+      "label": "What powers it",
+      "columns": [
+        {
+          "image": "renders/cells.png",
+          "head": "The cold core.",
+          "tail": "Cells that hold 4 °C."
+        },
+        {
+          "image": "renders/panel.png",
+          "head": "The lid.",
+          "tail": "A solar panel that recharges it."
+        }
+      ],
+      "notes": "Chi · about 15 s\nInside are cells that melt at four degrees, recharged by a panel in the lid."
+    },
+    {
+      "kind": "numbers",
+      "label": "Field test",
+      "numbers": [
+        {
+          "number": "10",
+          "text": "days"
+        },
+        {
+          "number": "3",
+          "text": "boxes"
+        },
+        {
+          "number": "0",
+          "text": "doses lost"
+        }
+      ],
+      "cite": [
+        "trial"
+      ],
+      "notes": "Chi · about 12 s\nWe ran three boxes for ten days. Not one dose went warm.",
+      "highlight": 3
+    },
+    {
+      "kind": "tiles",
+      "text": "We start with vaccines. Then everything cold.",
+      "highlight": 1,
+      "tiles": [
+        {
+          "image": "stock/vaccines.jpg",
+          "caption": "Vaccines: first"
+        },
+        {
+          "image": "stock/insulin.jpg",
+          "caption": "Insulin"
+        },
+        {
+          "image": "stock/blood.jpg",
+          "caption": "Blood"
+        },
+        {
+          "image": "stock/samples.jpg",
+          "caption": "Lab samples"
+        }
+      ],
+      "notes": "Chi · about 12 s\nWe start with vaccines. The same box carries insulin, blood and samples."
+    },
+    {
+      "kind": "team",
+      "people": [
+        {
+          "name": "Ana",
+          "role": "Lead"
+        },
+        {
+          "name": "Ben",
+          "role": "Engineering"
+        },
+        {
+          "name": "Chi",
+          "role": "Field work"
+        }
+      ],
+      "notes": "Ana · about 6 s\nThat's us."
+    },
+    {
+      "kind": "list",
+      "items": [
+        "Pilot with us.",
+        "Mentor us.",
+        "Fund 50 boxes."
+      ],
+      "image": "qr.png",
+      "alt": "QR code",
+      "notes": "Ana · about 10 s\nThree asks: pilot with us, mentor us, and fund the first fifty boxes.\n\nThe QR code opens our page."
+    },
+    {
+      "kind": "closing",
+      "notes": "Ana · about 5 s\nThank you. Any questions?"
+    }
+  ]
+}

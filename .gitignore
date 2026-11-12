@@ -1,0 +1,15 @@
+# dependencies & build caches
+node_modules/
+**/node_modules/
+**/scripts/.cache/
+package-lock.json
+**/package-lock.json
+
+# python
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# os / editors
+.DS_Store
+*.log
