@@ -29,7 +29,8 @@ ARCHITECTURE.md                     # map of the repo; update it when a skill, f
 ## Conventions
 
 - `kebab-case` folder names; one concern per skill.
-- Keep `README.md` concise and minimal: a short intro, Install, Why use it?, and a Reference list with one bullet and one short sentence per skill. Detail goes in the skill or its category README.
+- Keep `README.md` concise and minimal: a short intro with a few preview images, Install, Why use it?, and a Reference list with one bullet and one short sentence per skill. Detail goes in the skill or its category README.
+- README previews live in `.github/assets/slides/`: slides of `assets/example-deck.json` drawn with `build_deck.py --preview`, scaled to 1280 x 720. Redraw them when the builder's look changes.
 - Never bundle a font, photo or icon set whose licence doesn't allow it; point to where to get it.
 - Don't commit `node_modules/`, `scripts/.cache/`, build output or lockfiles (see `.gitignore`).
 - Retire a skill by moving it under `skills/deprecated/` rather than deleting it.
