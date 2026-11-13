@@ -70,7 +70,7 @@ A new skill goes in `skills/<category>/<name>/` with a `SKILL.md`, and is regist
 
 ## What does the Release flow look like?
 
-Push a `v*` tag: `release.yml` runs the skill tests and publishes a GitHub Release with generated notes. Installs keep reading `HEAD`, so a release only tags a snapshot.
+Changes people would notice are noted under `Unreleased` in [CHANGELOG.md](CHANGELOG.md) as they land. A release dates that section and bumps `plugin.json`'s `version` in one pull request; then a `v*` tag on the merge commit makes `release.yml` run the skill tests and publish a GitHub Release with generated notes. Installs keep reading `HEAD`, so a release only tags a snapshot.
 
 # Invariants
 

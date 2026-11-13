@@ -9,6 +9,7 @@ skills/<category>/<name>/SKILL.md   # each skill, a self-contained folder (categ
 .claude-plugin/plugin.json          # plugin manifest (lists every skill path)
 scripts/list-skills.sh              # list all skills
 scripts/link-skills.sh              # symlink skills into ~/.claude/skills & ~/.agents/skills for local dev
+CHANGELOG.md                        # every change people would notice, newest first; new ones go under Unreleased
 ARCHITECTURE.md                     # map of the repo; update it when a skill, folder or invariant changes
 ```
 
@@ -23,6 +24,7 @@ ARCHITECTURE.md                     # map of the repo; update it when a skill, f
    - root `README.md`: add a bullet to the Reference list
    - `ARCHITECTURE.md`: add its folders under Major Components
 5. `bash scripts/list-skills.sh` to sanity-check discovery; run the skill's tests (`python3 skills/<category>/<name>/tests/test_scripts.py`).
+6. Add a line under `## [Unreleased]` in `CHANGELOG.md` for anything people using the skill would notice.
 
 ## Conventions
 

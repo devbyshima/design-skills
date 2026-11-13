@@ -69,9 +69,13 @@ bash scripts/list-skills.sh    # name and description of each skill
 
 ## Releasing
 
-Installs read the repo at `HEAD`, so a release is only for tagging a snapshot. Push a `v*` tag and `.github/workflows/release.yml` runs the tests and publishes a GitHub Release with auto-generated notes:
+Installs read the repo at `HEAD`, so a release is only for tagging a snapshot.
+
+1. As changes land, add each one people using the skills would notice under `## [Unreleased]` in [CHANGELOG.md](CHANGELOG.md).
+2. To release, rename that heading to the version and today's date (`## [0.2.0] - YYYY-MM-DD`), put a new empty `## [Unreleased]` above it, update the compare links at the bottom, and bump `version` in `.claude-plugin/plugin.json` to match. Merge it through a pull request.
+3. Tag the merge commit and push the tag. `.github/workflows/release.yml` runs the tests and publishes a GitHub Release with auto-generated notes:
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.2.0
+git push origin v0.2.0
 ```
