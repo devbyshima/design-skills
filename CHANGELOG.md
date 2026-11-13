@@ -6,6 +6,10 @@ Installs read the repository at `HEAD`, so a version marks a snapshot rather tha
 
 ## [Unreleased]
 
+### Added
+
+- Four slides from the example deck at the top of the README, as the builder previews them.
+
 ## [0.1.0] - 2026-11-13
 
 The first release.

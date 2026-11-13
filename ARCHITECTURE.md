@@ -42,6 +42,12 @@ The slide-deck category. Its `README.md` lists each skill under User-invoked or 
 
 `plugin.json`: the `devbyshima-design-skills` plugin, its version and licence, and the `skills` array naming every skill's folder.
 
+### Repository assets [PNG, SVG]
+
+#### [.github/assets](.github/assets)
+
+The README's banner (`banner-light.svg`, `banner-dark.svg`) and, under `slides/`, its slide previews: slides of `assets/example-deck.json` drawn by `build_deck.py --preview` and scaled to 1280 x 720.
+
 ## External Pieces
 
 - **Agent Skills** ([agentskills.io](https://agentskills.io)): the `SKILL.md` format with `name` and `description` frontmatter.
